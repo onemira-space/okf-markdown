@@ -1,0 +1,15 @@
+{
+  "name": "onemira-okf-skills",
+  "owner": {
+    "name": "OneMira",
+    "url": "https://onemira.com"
+  },
+  "plugins": [
+    {
+      "name": "okf-markdown",
+      "source": "./",
+      "description": "Validate Open Knowledge Format (OKF v0.2) Markdown vaults, convert VTT/SRT meeting transcripts, and build [[wiki-link]] knowledge graphs.",
+      "version": "1.2.0"
+    }
+  ]
+}

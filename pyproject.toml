@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "okf-markdown"
-version = "1.1.0"
+version = "1.2.0"
 description = "Zero-dependency Python & Node.js validator, relational wiki-link graph builder, and WebVTT/SRT transcript converter for Open Knowledge Format (OKF v0.2) Markdown vaults."
 readme = "README.md"
 license = {text = "MIT"}

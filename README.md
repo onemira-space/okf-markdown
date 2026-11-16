@@ -4,6 +4,17 @@ Zero-dependency Node.js CLI and ESM library for validating **Open Knowledge Form
 
 Designed for local-first AI knowledge workflows across **Obsidian**, **Claude Code / Claude Desktop (MCP)**, **Cursor**, and **[OneMira C1](https://onemira.com/products/c1)**.
 
+## Install as an AI Agent Skill (Claude Code, Cursor, Codex, Gemini CLI)
+
+```bash
+# Universal Agent Skills CLI (skills.sh)
+npx skills add onemira-space/okf-markdown
+
+# Or in Claude Code interactive session:
+# /plugin marketplace add onemira-space/okf-markdown
+# /plugin install okf-markdown@onemira-okf-skills
+```
+
 ## Quick Start (Zero Install via `npx`)
 
 ```bash
@@ -68,6 +79,9 @@ tags: ["architecture", "local-ai"]
 - **[MCP & CLI Integration Guide](https://onemira.com/docs/mcp-integration)** — Connecting local meeting Markdown to Claude, ChatGPT, and Cursor.
 - **[Obsidian & Local Markdown Voice Workflow](https://onemira.com/blogs/ai-voice-recorder-for-obsidian-and-local-markdown)** — Using standalone voice capture with an Obsidian vault.
 - **[Voice Recorder for Note-Taking Guide](https://onemira.com/voice-recorder-for-note-taking)** — Practical workflow from spoken meetings to structured Markdown notes.
+
+### Regional & Multilingual OKF Note-Taking Guides
+- [UK Dictaphone & Local Note-Taking Guide](https://onemira.com/en-gb/voice-recorder-for-note-taking) · [DE: KI-Diktiergerät für Notizen](https://onemira.com/de/voice-recorder-for-note-taking) · [FR: Dictaphone IA Prise de Notes](https://onemira.com/fr/voice-recorder-for-note-taking) · [IT: Registratore Vocale IA per Appunti](https://onemira.com/it/voice-recorder-for-note-taking) · [ES: Grabadora de Voz IA para Notas](https://onemira.com/es/voice-recorder-for-note-taking)
 
 ## License
 

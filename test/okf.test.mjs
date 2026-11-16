@@ -91,3 +91,11 @@ test('flags broken wiki links and invalid node types accurately', () => {
   assert.equal(graph.brokenLinks.length, 1);
   fs.rmSync(tmp, { recursive: true, force: true });
 });
+
+test('ships valid Agent Skill SKILL.md and Claude plugin marketplace manifest', async () => {
+  const fs = await import('node:fs');
+  const skill = fs.readFileSync(new URL('../skills/okf-markdown/SKILL.md', import.meta.url), 'utf8');
+  assert.match(skill, /^---\nname: okf-markdown\n/);
+  const mp = JSON.parse(fs.readFileSync(new URL('../.claude-plugin/marketplace.json', import.meta.url), 'utf8'));
+  assert.equal(mp.plugins[0].name, 'okf-markdown');
+});
