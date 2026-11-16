@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "okf-markdown"
+version = "1.1.0"
+description = "Zero-dependency Python & Node.js validator, relational wiki-link graph builder, and WebVTT/SRT transcript converter for Open Knowledge Format (OKF v0.2) Markdown vaults."
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.9"
+authors = [{name = "OneMira Engineering", email = "support@onemira.com"}]
+keywords = ["okf", "open-knowledge-format", "markdown", "obsidian", "vtt-to-markdown", "mcp", "claude", "local-ai", "voice-recorder"]
+
+[project.urls]
+Homepage = "https://onemira-space.github.io/okf-markdown/"
+Repository = "https://github.com/onemira-space/okf-markdown"
+Documentation = "https://onemira.com/docs/daily-use/local-wiki"
+
+[project.scripts]
+okf-py = "okf_markdown.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["okf_markdown*"]

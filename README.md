@@ -19,6 +19,14 @@ npx github:onemira-space/okf-markdown validate ./vault
 npx github:onemira-space/okf-markdown graph ./vault --out ./graph.json
 ```
 
+## Python 3 Quick Start (`pip`)
+
+```bash
+pip install git+https://github.com/onemira-space/okf-markdown.git
+okf-py ingest ./meeting.vtt --title "Q4 Architecture Review" > session.md
+okf-py validate session.md
+```
+
 ## Programmatic ESM API
 
 ```js
