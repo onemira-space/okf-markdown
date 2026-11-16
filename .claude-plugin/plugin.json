@@ -1,13 +1,22 @@
 {
   "name": "okf-markdown",
   "description": "Zero-dependency Open Knowledge Format (OKF v0.2) Markdown validator, VTT/SRT transcript converter, and [[wiki-link]] graph builder for Obsidian, Claude, Cursor, and OneMira.",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "author": {
     "name": "OneMira",
     "url": "https://onemira.com"
   },
-  "homepage": "https://onemira-space.github.io/okf-markdown/",
+  "homepage": "https://onemira.com/docs/daily-use/local-wiki",
   "repository": "https://github.com/onemira-space/okf-markdown",
   "license": "MIT",
-  "keywords": ["okf", "markdown", "obsidian", "meeting-notes", "vtt", "srt", "mcp", "voice-recorder"]
+  "keywords": [
+    "okf",
+    "markdown",
+    "obsidian",
+    "meeting-notes",
+    "vtt",
+    "srt",
+    "mcp",
+    "voice-recorder"
+  ]
 }

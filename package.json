@@ -1,6 +1,6 @@
 {
   "name": "okf-markdown",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Zero-dependency parser, schema validator, knowledge-graph builder, and VTT/SRT transcript converter for Open Knowledge Format (OKF v0.2) Markdown vaults (Obsidian, Claude MCP, Cursor & OneMira).",
   "type": "module",
   "main": "./src/index.mjs",
@@ -29,7 +29,7 @@
     "voice-recorder",
     "onemira"
   ],
-  "homepage": "https://onemira-space.github.io/okf-markdown/",
+  "homepage": "https://onemira.com/docs/daily-use/local-wiki",
   "repository": {
     "type": "git",
     "url": "https://github.com/onemira-space/okf-markdown.git"
