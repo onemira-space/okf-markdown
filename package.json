@@ -1,0 +1,45 @@
+{
+  "name": "okf-markdown",
+  "version": "1.0.0",
+  "description": "Zero-dependency parser, schema validator, knowledge-graph builder, and VTT/SRT transcript converter for Open Knowledge Format (OKF v0.2) Markdown vaults (Obsidian, Claude MCP, Cursor & OneMira).",
+  "type": "module",
+  "main": "./src/index.mjs",
+  "exports": {
+    ".": "./src/index.mjs"
+  },
+  "bin": {
+    "okf-markdown": "./bin/okf.mjs",
+    "okf": "./bin/okf.mjs"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "keywords": [
+    "okf",
+    "open-knowledge-format",
+    "markdown",
+    "obsidian",
+    "vtt-to-markdown",
+    "srt-to-markdown",
+    "meeting-notes",
+    "knowledge-graph",
+    "mcp",
+    "claude",
+    "local-ai",
+    "voice-recorder",
+    "onemira"
+  ],
+  "homepage": "https://onemira-space.github.io/okf-markdown/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/onemira-space/okf-markdown.git"
+  },
+  "bugs": {
+    "url": "https://github.com/onemira-space/okf-markdown/issues"
+  },
+  "author": "OneMira Engineering (https://onemira.com)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

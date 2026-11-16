@@ -1,0 +1,10 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:04.500
+<v Maya Lin>Let's finalize the Q4 local AI release checklist.
+
+00:00:04.600 --> 00:00:08.200
+<v Maya Lin>All Markdown files must pass OKF v0.2 frontmatter validation.
+
+00:00:08.500 --> 00:00:13.000
+<v Alex Rivera>Agreed. Zero cloud dependency and deterministic wiki links are ready.

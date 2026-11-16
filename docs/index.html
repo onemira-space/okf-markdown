@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>okf-markdown — Open Knowledge Format (OKF v0.2) Markdown Validator & VTT CLI</title>
+  <meta name="description" content="Open-source zero-dependency CLI and ESM library for validating OKF v0.2 Markdown vaults, checking Obsidian wiki-links, and converting VTT/SRT meeting transcripts into structured Markdown." />
+  <link rel="canonical" href="https://onemira-space.github.io/okf-markdown/" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareSourceCode",
+    "name": "okf-markdown",
+    "version": "1.0.0",
+    "license": "https://opensource.org/licenses/MIT",
+    "codeRepository": "https://github.com/onemira-space/okf-markdown",
+    "programmingLanguage": "JavaScript",
+    "runtimePlatform": "Node.js >= 18",
+    "description": "Zero-dependency parser, validator, knowledge-graph builder, and VTT/SRT transcript converter for Open Knowledge Format (OKF v0.2) Markdown vaults.",
+    "author": {
+      "@type": "Organization",
+      "name": "OneMira",
+      "url": "https://onemira.com"
+    }
+  }
+  </script>
+  <style>
+    :root { color-scheme: light; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 780px; margin: 0 auto; padding: 56px 24px 80px; line-height: 1.65; color: #111827; background: #ffffff; }
+    h1 { font-size: 2rem; letter-spacing: -0.02em; margin-bottom: 0.5rem; }
+    h2 { font-size: 1.25rem; margin-top: 2.5rem; border-bottom: 1px solid #e5e7eb; padding-bottom: 0.4rem; }
+    pre { background: #f9fafb; border: 1px solid #e5e7eb; border-radius: 8px; padding: 16px; overflow-x: auto; font-size: 0.9rem; }
+    code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 0.9em; }
+    a { color: #111827; text-underline-offset: 3px; }
+    .meta { color: #4b5563; font-size: 0.95rem; margin-bottom: 2rem; }
+    ul { padding-left: 1.25rem; }
+    li { margin-bottom: 0.5rem; }
+  </style>
+</head>
+<body>
+  <h1>okf-markdown</h1>
+  <p class="meta">Open Knowledge Format (OKF v0.2) Validator, Link Graph Builder &amp; Transcript CLI · MIT License · <a href="https://github.com/onemira-space/okf-markdown">GitHub Repository</a></p>
+  <p><code>okf-markdown</code> is a zero-dependency Node.js CLI and ESM package for local-first meeting and research vaults. It converts raw WebVTT (<code>.vtt</code>), SubRip (<code>.srt</code>), and speaker-labeled transcripts into deterministic OKF v0.2 Markdown files, validates YAML frontmatter schemas, and verifies relational <code>[[wiki-links]]</code> across folders.</p>
+
+  <h2>CLI Usage</h2>
+  <pre><code>npx github:onemira-space/okf-markdown ingest ./meeting.vtt --title "Architecture Sync" --out ./vault/sessions/sync.md
+npx github:onemira-space/okf-markdown validate ./vault
+npx github:onemira-space/okf-markdown graph ./vault --out ./graph.json</code></pre>
+
+  <h2>Specification &amp; Ecosystem</h2>
+  <ul>
+    <li><a href="https://github.com/onemira-space/okf-markdown">Source Code &amp; Release v1.0.0 on GitHub</a></li>
+    <li><a href="https://onemira.com/docs/daily-use/local-wiki">OneMira Local Wiki &amp; OKF Architecture Documentation</a></li>
+    <li><a href="https://onemira.com/docs/mcp-integration">Model Context Protocol (MCP) &amp; CLI Workflow</a></li>
+    <li><a href="https://onemira.com/blogs/ai-voice-recorder-for-obsidian-and-local-markdown">Obsidian &amp; Local Markdown Voice Capture Guide</a></li>
+    <li><a href="https://onemira.com/voice-recorder-for-note-taking">Standalone Voice Recorder for Note-Taking</a></li>
+    <li><a href="https://onemira.com/products/c1">OneMira C1 Standalone AI Voice Recorder ($0/mo Local AI)</a></li>
+  </ul>
+</body>
+</html>
