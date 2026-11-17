@@ -96,3 +96,5 @@ tags: ["architecture", "local-ai"]
 MIT © [OneMira](https://onemira.com)
 
 - **[transcript-to-okf](https://github.com/onemira-space/transcript-to-okf)** (`v1.0.0`, [Docs](https://onemira-space.github.io/transcript-to-okf/)): Offline multi-vendor transcript migrator (`Otter.ai`, `Plaud`, `HiNotes`, `Notta`, `WebVTT`, `SRT`) to [Google OKF v0.2 Markdown & Obsidian](https://onemira.com/blogs/ai-voice-recorder-for-obsidian-and-local-markdown) (`brew install onemira-space/tap/transcript-to-okf`).
+
+- **[okf-wiki-mcp](https://github.com/onemira-space/okf-wiki-mcp)** — Zero-dependency offline Model Context Protocol (`MCP`) server & CLI for local Google OKF v0.2 and Obsidian Markdown meeting vaults (`brew install onemira-space/tap/okf-wiki-mcp` · [Docs](https://onemira-space.github.io/okf-wiki-mcp/) · [OneMira MCP Guide](https://onemira.com/docs/mcp-integration)).
