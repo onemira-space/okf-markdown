@@ -94,3 +94,5 @@ tags: ["architecture", "local-ai"]
 ## License
 
 MIT © [OneMira](https://onemira.com)
+
+- **[transcript-to-okf](https://github.com/onemira-space/transcript-to-okf)** (`v1.0.0`, [Docs](https://onemira-space.github.io/transcript-to-okf/)): Offline multi-vendor transcript migrator (`Otter.ai`, `Plaud`, `HiNotes`, `Notta`, `WebVTT`, `SRT`) to [Google OKF v0.2 Markdown & Obsidian](https://onemira.com/blogs/ai-voice-recorder-for-obsidian-and-local-markdown) (`brew install onemira-space/tap/transcript-to-okf`).
