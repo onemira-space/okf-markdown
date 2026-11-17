@@ -4,6 +4,14 @@ Zero-dependency Node.js CLI and ESM library for validating **Open Knowledge Form
 
 Designed for local-first AI knowledge workflows across **Obsidian**, **Claude Code / Claude Desktop (MCP)**, **Cursor**, and **[OneMira C1](https://onemira.com/products/c1)**.
 
+
+### Install via Homebrew (macOS & Linux)
+
+```bash
+brew tap onemira-space/tap
+brew install okf-markdown
+```
+
 ## Install as an AI Agent Skill (Claude Code, Cursor, Codex, Gemini CLI)
 
 ```bash
