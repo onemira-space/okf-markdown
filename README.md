@@ -27,15 +27,15 @@ npx skills add onemira-space/okf-markdown
 
 ```bash
 # 1. Convert a WebVTT or SRT meeting transcript into an OKF v0.2 Markdown session note
-npx github:onemira-space/okf-markdown ingest ./meeting.vtt \
+npx okf-markdown ingest ./meeting.vtt \
   --title "Q4 Product Architecture Review" \
   --out ./vault/sessions/q4-architecture.md
 
 # 2. Validate YAML frontmatter schema & relational link integrity across an Obsidian / OKF folder
-npx github:onemira-space/okf-markdown validate ./vault
+npx okf-markdown validate ./vault
 
 # 3. Export a structured JSON knowledge graph (nodes, edges, orphan notes) for RAG or MCP agents
-npx github:onemira-space/okf-markdown graph ./vault --out ./graph.json
+npx okf-markdown graph ./vault --out ./graph.json
 ```
 
 ## Python 3 Quick Start (`pip`)
