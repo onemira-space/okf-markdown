@@ -8,8 +8,8 @@
     ".": "./src/index.mjs"
   },
   "bin": {
-    "okf-markdown": "./bin/okf.mjs",
-    "okf": "./bin/okf.mjs"
+    "okf-markdown": "bin/okf.mjs",
+    "okf": "bin/okf.mjs"
   },
   "files": [
     "bin/",
@@ -40,7 +40,7 @@
   "homepage": "https://onemira.com/docs/daily-use/local-wiki",
   "repository": {
     "type": "git",
-    "url": "https://github.com/onemira-space/okf-markdown.git"
+    "url": "git+https://github.com/onemira-space/okf-markdown.git"
   },
   "bugs": {
     "url": "https://github.com/onemira-space/okf-markdown/issues"
