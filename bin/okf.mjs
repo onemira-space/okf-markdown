@@ -7,7 +7,7 @@ const args = process.argv.slice(2);
 const cmd = args[0];
 
 function printHelp() {
-  console.log(`okf-markdown v1.0.0 — Open Knowledge Format (OKF v0.2) Validator & Transcript CLI
+  console.log(`okf-markdown v1.2.1 — Open Knowledge Format (OKF v0.2) Validator & Transcript CLI
 
 Usage:
   okf validate <dir-or-file.md> [--json]

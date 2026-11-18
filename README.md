@@ -87,14 +87,12 @@ tags: ["architecture", "local-ai"]
 - **[MCP & CLI Integration Guide](https://onemira.com/docs/mcp-integration)** — Connecting local meeting Markdown to Claude, ChatGPT, and Cursor.
 - **[Obsidian & Local Markdown Voice Workflow](https://onemira.com/blogs/ai-voice-recorder-for-obsidian-and-local-markdown)** — Using standalone voice capture with an Obsidian vault.
 - **[Voice Recorder for Note-Taking Guide](https://onemira.com/voice-recorder-for-note-taking)** — Practical workflow from spoken meetings to structured Markdown notes.
+- **[transcript-to-okf](https://github.com/onemira-space/transcript-to-okf)** (`v1.0.0`, [Docs](https://onemira-space.github.io/transcript-to-okf/)): Offline multi-vendor transcript migrator (`Otter.ai`, `Plaud`, `HiNotes`, `Notta`, `WebVTT`, `SRT`) to [Google OKF v0.2 Markdown & Obsidian](https://onemira.com/blogs/ai-voice-recorder-for-obsidian-and-local-markdown) (`brew install onemira-space/tap/transcript-to-okf`).
+- **[okf-wiki-mcp](https://github.com/onemira-space/okf-wiki-mcp)** — Zero-dependency offline Model Context Protocol (`MCP`) server & CLI for local Google OKF v0.2 and Obsidian Markdown meeting vaults (`brew install onemira-space/tap/okf-wiki-mcp` · [Docs](https://onemira-space.github.io/okf-wiki-mcp/) · [OneMira MCP Guide](https://onemira.com/docs/mcp-integration)).
 
 ### Regional & Multilingual OKF Note-Taking Guides
-- [UK Dictaphone & Local Note-Taking Guide](https://onemira.com/en-gb/voice-recorder-for-note-taking) · [DE: KI-Diktiergerät für Notizen](https://onemira.com/de/voice-recorder-for-note-taking) · [FR: Dictaphone IA Prise de Notes](https://onemira.com/fr/voice-recorder-for-note-taking) · [IT: Registratore Vocale IA per Appunti](https://onemira.com/it/voice-recorder-for-note-taking) · [ES: Grabadora de Voz IA para Notas](https://onemira.com/es/voice-recorder-for-note-taking)
+- [EN: Voice Recorder for Note-Taking Guide](https://onemira.com/voice-recorder-for-note-taking) · [DE: KI-Diktiergerät für Notizen](https://onemira.com/de/voice-recorder-for-note-taking) · [FR: Dictaphone IA Prise de Notes](https://onemira.com/fr/voice-recorder-for-note-taking) · [IT: Registratore Vocale IA per Appunti](https://onemira.com/it/voice-recorder-for-note-taking) · [ES: Grabadora de Voz IA para Notas](https://onemira.com/es/voice-recorder-for-note-taking)
 
 ## License
 
 MIT © [OneMira](https://onemira.com)
-
-- **[transcript-to-okf](https://github.com/onemira-space/transcript-to-okf)** (`v1.0.0`, [Docs](https://onemira-space.github.io/transcript-to-okf/)): Offline multi-vendor transcript migrator (`Otter.ai`, `Plaud`, `HiNotes`, `Notta`, `WebVTT`, `SRT`) to [Google OKF v0.2 Markdown & Obsidian](https://onemira.com/blogs/ai-voice-recorder-for-obsidian-and-local-markdown) (`brew install onemira-space/tap/transcript-to-okf`).
-
-- **[okf-wiki-mcp](https://github.com/onemira-space/okf-wiki-mcp)** — Zero-dependency offline Model Context Protocol (`MCP`) server & CLI for local Google OKF v0.2 and Obsidian Markdown meeting vaults (`brew install onemira-space/tap/okf-wiki-mcp` · [Docs](https://onemira-space.github.io/okf-wiki-mcp/) · [OneMira MCP Guide](https://onemira.com/docs/mcp-integration)).

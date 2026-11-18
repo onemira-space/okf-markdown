@@ -11,6 +11,14 @@
     "okf-markdown": "./bin/okf.mjs",
     "okf": "./bin/okf.mjs"
   },
+  "files": [
+    "bin/",
+    "src/",
+    "skills/",
+    ".claude-plugin/",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "test": "node --test test/*.test.mjs"
   },
