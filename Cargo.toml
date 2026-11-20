@@ -1,0 +1,29 @@
+[package]
+name = "okf-markdown"
+version = "0.1.0"
+edition = "2021"
+authors = ["OneMira <hello@onemira.com>"]
+license = "MIT"
+description = "Zero-dependency Rust parser, validator, wiki-link graph builder, and transcript converter for Open Knowledge Format (OKF v0.2) Markdown vaults."
+homepage = "https://onemira.com/docs/mcp-integration"
+repository = "https://github.com/onemira-space/okf-markdown"
+documentation = "https://docs.rs/okf-markdown"
+readme = "README.md"
+keywords = ["markdown", "okf", "obsidian", "mcp", "knowledge-graph"]
+categories = ["text-processing", "parser-implementations", "command-line-utilities"]
+include = [
+    "Cargo.toml",
+    "LICENSE",
+    "README.md",
+    "rust/src/**/*.rs",
+]
+
+[lib]
+name = "okf_markdown"
+path = "rust/src/lib.rs"
+
+[[bin]]
+name = "okf-md"
+path = "rust/src/main.rs"
+
+[dependencies]

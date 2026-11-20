@@ -46,6 +46,18 @@ okf-py ingest ./meeting.vtt --title "Q4 Architecture Review" > session.md
 okf-py validate session.md
 ```
 
+## Rust Quick Start (`cargo` / `crates.io`)
+
+Zero-dependency Rust library and `okf-md` CLI ([`crates.io/crates/okf-markdown`](https://crates.io/crates/okf-markdown) · [`docs.rs/okf-markdown`](https://docs.rs/okf-markdown)):
+
+```bash
+cargo add okf-markdown
+# Or install the standalone binary:
+cargo install okf-markdown
+okf-md validate ./vault
+okf-md stats ./vault
+```
+
 ## Programmatic ESM API
 
 ```js
