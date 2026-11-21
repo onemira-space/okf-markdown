@@ -1,6 +1,7 @@
 # okf-markdown
 
 > **Interactive OKF v0.2 Browser Validator:** [https://onemira-okf-markdown.static.hf.space/](https://onemira-okf-markdown.static.hf.space/) · **Hugging Face Space:** [onemira/okf-markdown](https://huggingface.co/spaces/onemira/okf-markdown)
+> **Codeberg Mirror:** [codeberg.org/onemira/okf-markdown](https://codeberg.org/onemira/okf-markdown) · **Open-Source Index:** [onemira.codeberg.page](https://onemira.codeberg.page/)
 
 Zero-dependency Node.js CLI and ESM library for validating **Open Knowledge Format (OKF v0.2)** Markdown vaults, building relational knowledge graphs (`[[wiki-links]]` + relative Markdown links), and converting `.vtt` / `.srt` / speaker-labeled transcripts into deterministic OKF session notes.
 
