@@ -112,3 +112,4 @@ tags: ["architecture", "local-ai"]
 
 MIT © [OneMira](https://onemira.com)
 - Context7 AI Agent Docs Index: [OneMira LLMs Full Context](https://context7.com/llmstxt/onemira_llms-full_txt) · [OKF Markdown on Context7](https://context7.com/onemira-space/okf-markdown)
+- VS Code & Cursor Extension: [OKF Markdown & Local Wiki on Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=onemira.okf-markdown) ([Publisher: OneMira](https://marketplace.visualstudio.com/publishers/onemira))
